@@ -2,6 +2,6 @@
 
 ---
 
-![ markdown image](./macintosh-modal-md-image.png)
+![ markdown image](./image/macintosh-modal-md-image.png)
 
 ---
