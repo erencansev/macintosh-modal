@@ -42,8 +42,8 @@ function closeModal(modalId) {
 
 document.addEventListener("keydown", function (e) {
   if (e.key === "Escape");
-  if (!modalList.classList.contains(".hidden")) {
-    console.log(modalList.children);
-    modalList.child;
-  }
+  for (let i = 0; i < modalList.children.length; i++)
+    if (!modalList.children[i].classList.contains(".hidden")) {
+      modalList.children[i].classList.add("hidden");
+    }
 });
