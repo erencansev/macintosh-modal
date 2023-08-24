@@ -27,7 +27,9 @@ document.addEventListener("click", function (e) {
     !(
       e.target.classList.contains("show-modal") ||
       e.target.classList.contains("modal") ||
-      e.target.classList.contains("modal-content")
+      e.target.classList.contains("modal-content") ||
+      e.target.classList.contains("modal-h1") ||
+      e.target.classList.contains("modal-video")
     )
   ) {
     for (let i = 0; i < modalList.children.length; i++) {
